@@ -35,6 +35,7 @@
             this.AttractieLogo = new System.Windows.Forms.PictureBox();
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
+            this.LabelKar3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,6 +110,17 @@
             this.labelKar1.Text = "Kar 1: ...";
             this.labelKar1.Click += new System.EventHandler(this.labelKar1_Click);
             // 
+            // LabelKar3
+            // 
+            this.LabelKar3.AutoSize = true;
+            this.LabelKar3.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.LabelKar3.Location = new System.Drawing.Point(39, 130);
+            this.LabelKar3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelKar3.Name = "LabelKar3";
+            this.LabelKar3.Size = new System.Drawing.Size(74, 23);
+            this.LabelKar3.TabIndex = 10;
+            this.LabelKar3.Text = "Kar 3: ...";
+            // 
             // FormWachtrij
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -139,6 +151,7 @@
         private System.Windows.Forms.PictureBox AttractieLogo;
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
+        private System.Windows.Forms.Label LabelKar3;
     }
 }
 
