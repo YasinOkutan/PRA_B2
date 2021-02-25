@@ -45,9 +45,9 @@
             this.labelTitel.Location = new System.Drawing.Point(35, 22);
             this.labelTitel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTitel.Name = "labelTitel";
-            this.labelTitel.Size = new System.Drawing.Size(232, 40);
+            this.labelTitel.Size = new System.Drawing.Size(191, 40);
             this.labelTitel.TabIndex = 0;
-            this.labelTitel.Text = "Bugs of Horror";
+            this.labelTitel.Text = "Debug Hero";
             this.labelTitel.Click += new System.EventHandler(this.labelTitel_Click);
             // 
             // labelWachttijd
@@ -78,7 +78,7 @@
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
             this.AttractieLogo.Location = new System.Drawing.Point(224, 107);
-            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(147, 174);
             this.AttractieLogo.TabIndex = 6;
@@ -122,9 +122,9 @@
             this.Controls.Add(this.labelWachttijd);
             this.Controls.Add(this.labelTitel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormWachtrij";
-            this.Text = "Bugs of Horror";
+            this.Text = "Debug Hero";
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
