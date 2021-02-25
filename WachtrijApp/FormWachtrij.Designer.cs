@@ -39,9 +39,9 @@
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
             this.SuspendLayout();
-            //
+            // 
             // labelTitel
-            //
+            // 
             this.labelTitel.AutoSize = true;
             this.labelTitel.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitel.Location = new System.Drawing.Point(35, 22);
@@ -51,9 +51,9 @@
             this.labelTitel.TabIndex = 0;
             this.labelTitel.Text = "Debug Hero";
             this.labelTitel.Click += new System.EventHandler(this.labelTitel_Click);
-            //
+            // 
             // labelWachttijd
-            //
+            // 
             this.labelWachttijd.AutoSize = true;
             this.labelWachttijd.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijd.Location = new System.Drawing.Point(36, 183);
@@ -63,9 +63,9 @@
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
             this.labelWachttijd.Click += new System.EventHandler(this.labelWachttijd_Click);
-            //
+            // 
             // labelWachttijdMelding
-            //
+            // 
             this.labelWachttijdMelding.AutoSize = true;
             this.labelWachttijdMelding.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijdMelding.Location = new System.Drawing.Point(39, 214);
@@ -74,9 +74,9 @@
             this.labelWachttijdMelding.Size = new System.Drawing.Size(88, 23);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
-            //
+            // 
             // AttractieLogo
-            //
+            // 
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
             this.AttractieLogo.Location = new System.Drawing.Point(238, 107);
@@ -86,9 +86,9 @@
             this.AttractieLogo.TabIndex = 6;
             this.AttractieLogo.TabStop = false;
             this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
-            //
+            // 
             // labelKar2
-            //
+            // 
             this.labelKar2.AutoSize = true;
             this.labelKar2.Font = new System.Drawing.Font("Calibri", 11.25F);
             this.labelKar2.Location = new System.Drawing.Point(39, 107);
@@ -98,9 +98,9 @@
             this.labelKar2.TabIndex = 8;
             this.labelKar2.Text = "Kar 2: ...";
             this.labelKar2.Click += new System.EventHandler(this.labelKar2_Click);
-            //
+            // 
             // labelKar1
-            //
+            // 
             this.labelKar1.AutoSize = true;
             this.labelKar1.Font = new System.Drawing.Font("Calibri", 11.25F);
             this.labelKar1.Location = new System.Drawing.Point(39, 84);
@@ -110,9 +110,9 @@
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
             this.labelKar1.Click += new System.EventHandler(this.labelKar1_Click);
-            //
+            // 
             // labelKar3
-            //
+            // 
             this.labelKar3.AutoSize = true;
             this.labelKar3.Font = new System.Drawing.Font("Calibri", 11.25F);
             this.labelKar3.Location = new System.Drawing.Point(39, 130);
@@ -122,18 +122,19 @@
             this.labelKar3.TabIndex = 10;
             this.labelKar3.Text = "Kar 3: ...";
             this.labelKar3.Click += new System.EventHandler(this.LabelKar3_Click);
-            //
+            // 
             // button1
-            //
-            this.button1.Location = new System.Drawing.Point(78, 257);
+            // 
+            this.button1.Location = new System.Drawing.Point(42, 258);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(121, 23);
             this.button1.TabIndex = 11;
             this.button1.Text = "Reset";
             this.button1.UseVisualStyleBackColor = true;
-            //
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormWachtrij
-            //
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
