@@ -206,5 +206,24 @@ namespace WachtrijApp
         {
 
         }
+
+        private void tbnStatus_Click(object sender, EventArgs e)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load("SensorData\\AttractieStatus.xml");
+
+            
+            string node1 = doc.DocumentElement.SelectSingleNode("/Status/Kar01").InnerText;
+            string status1 = ConvertStatus(node1);
+            this.labelKar1.Text = $"Kar 1: {status1}";
+
+            string node2 = doc.DocumentElement.SelectSingleNode("/Status/Kar02").InnerText;
+            string status2 = ConvertStatus(node2);
+            this.labelKar2.Text = $"Kar 2: {status2}";
+
+            string node3 = doc.DocumentElement.SelectSingleNode("/Status/Kar03").InnerText;
+            string status3 = ConvertStatus(node3);
+            this.labelKar3.Text = $"Kar 3: {status3}";
+        }
     }
 }
